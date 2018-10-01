@@ -14,7 +14,7 @@ class CustomHandler(BaseHTTPRequestHandler):
       self.end_headers()
 
       # Send the html message
-      htmlMsg= "<h2>Hello World!</h2><button type='btnSubmit'>Click me!</button>"
+      htmlMsg= "<h2>Hello World!</h2><button type='button'>Click me!</button>"
 
       self.wfile.write(htmlMsg.encode()) #Python 3
 <button type="button">Click Me!</button>
