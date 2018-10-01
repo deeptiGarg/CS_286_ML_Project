@@ -14,7 +14,7 @@ class CustomHandler(BaseHTTPRequestHandler):
       self.end_headers()
 
       # Send the html message
-      htmlMsg= "Hello World!"
+      htmlMsg= "<h2>Hello World!</h2>"
 
       self.wfile.write(htmlMsg.encode()) #Python 3
 
