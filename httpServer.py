@@ -14,9 +14,8 @@ class CustomHandler(BaseHTTPRequestHandler):
       self.end_headers()
 
       # Send the html message
-      htmlMsg= "<html><head><title>%s output - %s</title></head>
-    <body><p>URL:</p></body>
-    </html>" 
+      htmlMsg= "<html><head><title>%s output - %s</title></head><body><p>URL:</p></body>\
+	  </html>" 
 	 
 	 #"<h2>Hello World!</h2><button type='button'>Click me!</button>"
 	  
